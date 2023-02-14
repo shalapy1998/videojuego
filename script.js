@@ -8,7 +8,7 @@ function tiempoJuego() {
     tiempo--;
     document.getElementById("tiempo").innerHTML = "&nbsp; &nbsp tiempo: " + tiempo;
     if (tiempo == 0) {
-        alert("perdiste")
+        alert("game over")
         tiempo = 0;
         puntos = 0;
     }
